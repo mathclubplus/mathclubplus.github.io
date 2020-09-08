@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177475938-1"></script>
+		<script src = 'js/loadStats.js'></script>
+		
+		<meta charset="utf-8">
+		
+		<title id='title'>MathClub+ - ERROR 404</title>
+		<meta name="description" content="A place to play games for school!">
+		<meta name="author" content="u/im_bop34">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<script src="https://kit.fontawesome.com/07da8cfcf9.js" crossorigin="anonymous"></script>
+		<style>
+			html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+		</style>
+
+	</head>
+
+	<body>
+		<!-- Top container -->
+		<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+  			<button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i> Menu</button>
+  			<span id='header' class="w3-bar-item w3-right">Logo</span>
+		</div>
+		
+		<!-- Sidebar/menu -->
+		<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar">
+		  <hr>
+		  <div class="w3-container">
+		    <h5>Options</h5>
+		  </div>
+		  <div class="w3-bar-block">
+		    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+		    <a href="index.html" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fas fa-home"></i>  Home</a>
+		    <a href="about.html" class="w3-bar-item w3-button w3-padding"><i class="fas fa-book"></i>  About</a>
+		    <a href="gamelist.html" class="w3-bar-item w3-button w3-padding"><i class="fas fa-gamepad"></i>  Math Games</a>
+		  </div>
+		</nav>
+		<!-- Overlay effect when opening sidebar on small screens -->
+		<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+		
+		
+		<!-- !PAGE CONTENT! -->
+		<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+			<!-- Embed the game -->
+			<div id='embedGame'></div>
+			<br>
+
+			<!-- Footer -->
+			<div class="w3-container w3-dark-grey w3-padding-32">
+				<div class="w3-row">
+					
+					<div class="w3-container w3-third">
+						<h5 class="w3-bottombar w3-border-purple">Info</h5>
+						<p>Hosted by <a href="https://pages.github.com/" target="_blank">Github Pages</a></p>
+						<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+						<p></p>
+					</div>
+					<div class="w3-container w3-third">
+						<h5 class="w3-bottombar w3-border-red">Credits</h5>
+						<p>Play free games at <a href="https://www.kongregate.com/" target="_blank">Kongregate</a></p>
+						<p>Inspired by <a href="https://www.coolmathgames.com/" target="_blank">Cool Math Games</a></p>
+					</div>
+					<div class="w3-container w3-third">
+						<h5 class="w3-bottombar w3-border-green">Find me on</h5>
+						<p><a href="https://discord.com/app" target="_blank">Discord</a> as bop34#9575</p>
+						<p><a href="https://github.com/bop34" target="_blank">Github</a></p>
+					</div>
+				</div>
+			</div>
+
+			<!-- End page content -->
+		</div>
+		
+		<script>
+			gName = 'Template'
+			gCode = '<center><h1>Error 404</h1><h5>Please check the url given is correct</h5></center>'
+		</script>
+		<script src="js/loadGame.js"></script>
+		<script src="js/w3Formatting.js"></script>
+	</body>
+</html>
